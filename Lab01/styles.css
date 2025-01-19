@@ -1,9 +1,55 @@
-h1 {color: 0A3981}; 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E38E49;
+    color: #0A3981;
+    text-align: center;
+    margin: 20px;
+    font-size: 1.25em;
+}
 
-.main-section {background-color: D4EBF8};
+header {
+    color: #0A3981;
+    text-align: left;
+    padding: 20px;
+    font-size: large;
+}
 
-b {font-weight: none;}
+.main-section {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #D4EBF8;
+    padding: 40px;
+    border-radius: 10px;
+}
 
-b {color: E38E49;}
+p b {
+    color:#E38E49;
+    font-weight: normal;
+}
 
-<link rel="stylesheet" href="styles.css">
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.image-box {
+    width: calc(50% - 5px); /*Used ai to help me understand what was wrong
+    with my images not displaying correctly told me about calc function. Got this through w3 schools from reasarch on flexboxes with images.
+    This function esures that each div box I've made for my images takes up only half the container width and also adjusts it from the gap i set.  */
+    box-sizing: border-box;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .image-box {
+        width: 100%;
+    }
+    
+}
