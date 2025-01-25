@@ -1,0 +1,43 @@
+nav {display: flex;
+    animation-name: nav;
+}
+
+nav div {
+  background-color: black;
+  margin: 2px;
+  color: white;
+  padding: 15px;
+  font-family: arial, sans-serif;
+}
+
+
+
+
+.circle {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 70px;
+    background-color: #D4EBF8;
+    font-size: 1em;
+    padding: 30px;
+    border-radius: 110px;
+}
+
+.circle:hover {
+    background-color: blue;
+    transition: transform 1s;
+    transform: rotate(360deg);
+}
+
+.image-box {
+    animation-name: otto;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes otto {
+    from {transform: translateX(0px);} 
+    to {transform: translateX(1000px);}
+}
+
