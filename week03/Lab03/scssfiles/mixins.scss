@@ -1,0 +1,8 @@
+@mixin button-style($bg-color) {
+    background-color: $bg-color;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}

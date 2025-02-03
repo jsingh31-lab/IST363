@@ -1,0 +1,39 @@
+/*Imports*/
+@import "reset";
+
+
+
+/*Variables*/
+$heading_color: limegreen;
+$main_font: Arial, Helevtica, Sans-serif;
+
+h1 {
+    color: $heading_color;
+}
+
+
+
+/*Mixins*/
+@mixin warning {
+    color: blue;
+    background-color: lime;
+}
+
+.danger {
+    @include warning;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*Extend*/
+.jumbotron {
+    width: 100%;
+    background-color: lightblue;
+    border: 2px solid navy;
+}
+
+/*Doesnt need to have same name could be .bigheading_about and still work*/
+.jumbotron_about {
+    @extend .jumbotron;
+    color: gray;
+}
