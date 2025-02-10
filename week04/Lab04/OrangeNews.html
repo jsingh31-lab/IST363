@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orange News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+   
+    <header class="bg-indigo-900 text-white py-4 shadow-md px-6 flex justify-between items-center">
+        <h1 class="text-2xl font-bold text-yellow-400">Orange News</h1>
+        <nav>
+            <ul class="flex space-x-6 text-lg">
+                <li><a href="#" class="hover:underline">Home</a></li>
+                <li><a href="#" class="hover:underline">Latest</a></li>
+                <li><a href="#" class="hover:underline">Scores</a></li>
+                <li><a href="#" class="hover:underline">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+    <section class="max-w-6xl mx-auto mt-6 rounded-lg overflow-hidden shadow-lg">
+        <img src="campus.jpg" alt="Campus" class="w-full object-cover">
+        <div class="bg-indigo-950 text-white p-6">
+            <h2 class="text-3xl font-bold">Will the Snow Ever Thaw?</h2>
+            <p class="text-lg">Get the latest scoop on the weather and everything that affects the jet stream.</p>
+        </div>
+    </section>
+    
+    <section class="container mx-auto py-8 px-6">
+        <h3 class="text-2xl font-bold mb-4">More Featured Stories</h3>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 shadow-lg rounded-lg">
+                <img src="graduates.jpg" alt="Graduation 2025" class="w-full h-48 object-cover rounded-md">
+                <h4 class="text-lg font-semibold mt-2">Graduation 2025</h4>
+                <p>Invite your friends and family to join us in May.</p>
+            </div>
+            <div class="bg-white p-4 shadow-lg rounded-lg">
+                <img src="runners.jpg" alt="Workplace Run" class="w-full h-48 object-cover rounded-md">
+                <h4 class="text-lg font-semibold mt-2">Workplace Run</h4>
+                <p>Run a 5K with your colleagues.</p>
+            </div>
+            <div class="bg-white p-4 shadow-lg rounded-lg">
+                <img src="artshow.jpg" alt="Art Show" class="w-full h-48 object-cover rounded-md">
+                <h4 class="text-lg font-semibold mt-2">Art Show</h4>
+                <p>The best of the year on display at Schaffer.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mx-auto px-6 grid md:grid-cols-3 gap-6">
+        <div class="space-y-4 md:col-span-2">
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">Player X Breaks Record</h3>
+                <p>Player X's record-breaking performance stunned fans everywhere.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">Team Y Wins Championship</h3>
+                <p>Team Y secured a historic victory in an epic showdown.</p>
+            </div>
+            <div class="bg-white p-6 shadow-lg rounded-lg">
+                <h3 class="text-xl font-bold">Athlete Z Announces Retirement</h3>
+                <p>Athlete Z's retirement shocked the sports world.</p>
+            </div>
+        </div>
+        <div class="bg-white p-4 shadow-lg rounded-lg w-full md:w-auto">
+            <h3 class="text-xl font-bold mb-4">Game Scores</h3>
+            <table class="w-full text-left border-t border-gray-200">
+                <thead>
+                    <tr><th class="p-2">Game</th><th class="p-2">Score</th></tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b"><td class="p-2">Women's Hockey vs Miami</td><td class="p-2">3 - 1</td></tr>
+                    <tr class="border-b"><td class="p-2">Men's Lacrosse vs St Bonaventure</td><td class="p-2">7 - 18</td></tr>
+                    <tr><td class="p-2">Men's Basketball vs Duke</td><td class="p-2">98 - 75</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="container mx-auto py-8 px-6">
+        <div class="bg-indigo-950 p-6 shadow-lg rounded-lg text-center text-white">
+            <h3 class="text-xl font-bold">Subscribe to Our Newsletter</h3>
+            <p class="text-gray-300">Stay updated with the latest news, scores, and exclusive content delivered straight to your inbox!</p>
+            <div class="mt-4 flex flex-col items-center">
+                <input type="email" placeholder="Enter your email" class="border p-2 w-2/3 md:w-1/2 rounded-md text-black mb-2">
+                <button class="bg-yellow-500 text-white px-6 py-2 rounded-md">Subscribe</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
