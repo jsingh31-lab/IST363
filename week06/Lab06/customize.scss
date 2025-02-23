@@ -1,0 +1,12 @@
+$navy: rgb(0, 0, 73);
+
+
+@import '../bootstrap-5.3.3-dist/scss/bootstrap';
+
+.navbar {
+    background-color: $navy !important;
+}
+
+.footer {
+    background-color: $navy !important;
+}
