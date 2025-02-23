@@ -1,9 +1,5 @@
 $navy: rgb(0, 0, 73);
 
-
-@import '../project/node_modules/bootstrap/scss/bootstrap.scss';
-
-
 .navbar {
     background-color: $navy;
 }
@@ -11,3 +7,5 @@ $navy: rgb(0, 0, 73);
 .footer {
     background-color: $navy;
 }
+
+@import '../project/node_modules/bootstrap/scss/bootstrap.scss';

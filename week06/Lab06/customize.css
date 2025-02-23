@@ -1,4 +1,12 @@
 @charset "UTF-8";
+.navbar {
+  background-color: rgb(0, 0, 73);
+}
+
+.footer {
+  background-color: rgb(0, 0, 73);
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11964,11 +11972,4 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}
-.navbar {
-  background-color: rgb(0, 0, 73);
-}
-
-.footer {
-  background-color: rgb(0, 0, 73);
 }/*# sourceMappingURL=customize.css.map */
