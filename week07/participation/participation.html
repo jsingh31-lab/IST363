@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Examples</title>
+    <!---include an external file-->
+    <script src="example.js"></script>
+</head>
+
+<body>
+    <h1>JavaScript Basics</h1>
+
+    <script>
+        //dog and cat years
+        let dogAge = 14;
+        let type = "dog";
+        let petAge; // saying I'm going to use this variable later.
+        if (type == "dog") {
+            petAge = dogAge * 7;
+        } else if (type == "cat") {
+            petAge = dogAge * 4;
+        }
+        console.log(petAge);
+    </script>
+
+    <!---include JS internally-->
+    <script>
+        console.log("Hello World!"); // comment
+
+        //name example
+        let firstname = "Jaspreet"
+        let lastname = "Singh"
+        let age = 23;
+        let isIschool = true;
+        console.log(firstname, lastname, age, isIschool);
+
+        //multiplication
+        let x = 2*2034;
+        console.log(x);
+
+        //comparison and logic
+        console.log(1 == 2);
+        console.log(0 && 1); // && means and so both have to be true otherwise false.
+        console.log(0 || 1); // || means or so only one needs to be true.
+        console.log(10 == 20 || 20 == 10); // F or F = false
+
+        //participation activity 1
+        let test = 100;
+        console.log(test);
+
+        //participation activity 2
+        let gpa = 3.4;
+
+        if(gpa >= 3.5) {
+            console.log("You made the dean's list");
+        } else if (gpa <= 3.5) {
+            console.log("You did not make the dean's list");
+        }
+
+        //participation activity 3
+        for (let i=2; i <=10; i += 2) {
+            console.log(i);
+        }
+
+    </script>
+
+
+</body>
+</html>
+

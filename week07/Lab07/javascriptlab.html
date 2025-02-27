@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Lab07</title>
+</head>
+
+<body>
+    <script>
+
+        // Question 1
+        let myVar = 1000;
+        console.log("My variable value is " + myVar + ".");
+
+        let myVar2 = 5;
+        console.log("My favorite number is " + myVar2 + ".");
+
+        //Question 2
+        let colors = ["red", "blue", "green", "yellow"];
+        console.log(colors[0]);
+        console.log(colors[2]);
+
+        let favFood = ["pizza", "burgers", "wings", "fries"];
+        console.log(favFood[1]);
+        favFood.push("calazones");
+        console.log(favFood);
+
+        // Question 3
+        for (let i = 0; i < favFood.length; i++) {
+            console.log("Favorite Food " +(i + 1) + ":" + favFood[i]);
+        }
+
+        //Did this so theres a blank between questions so its easier to read.
+        console.log("");
+
+        //Question 4
+        for (let i = 0; i < favFood.length; i++) {
+            if (i == 1) {
+                continue;
+            } console.log("Favorite Food " +(i + 1) + ":" + favFood[i]);
+        } 
+
+        //Did this so theres a blank between questions so its easier to read.
+        console.log("");
+
+        //Question 5
+        let book = {
+            title: "Gravity",
+            author: "Tess Gerritsen",
+            yearPublished: 1999,
+            isAvailable: true
+        };
+
+        console.log("Title: " + book.title);
+        console.log("Author: " + book.author);
+
+        if (book.isAvailable) {
+            console.log("This book is avaiable.");
+        } else {
+            console.log("Sorry, this book isn't available");
+        }
+
+        //Did this so theres a blank between questions so its easier to read.
+        console.log("");
+
+        //Question 6
+        let x = 2;
+        while (x <= 20) {
+            console.log(x);
+            x += 2;
+        }
+
+        //Did this so theres a blank between questions so its easier to read.
+        console.log("");
+
+        //Question 7
+        let diceRoll = Math.floor(Math.random() * 6) +1;
+        console.log(diceRoll);
+
+    </script>
+
+
+</body>
+</html>
+
