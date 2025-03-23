@@ -27,14 +27,14 @@ function displayWeather(response) {
         const request = new XMLHttpRequest();
 
         // Step 2 - EventListener - Check Request status
-        request.addEventListener('readystatechange', () => { 
-            if (request.readyState === 4 && request.status === 200) {  
+        request.addEventListener('readystatechange', () => {  // 
+            if (request.readyState === 4 && request.status === 200) {  // listening for request complete
                 displayWeather(request.responseText); // Process response
-            } else if (request.readyState === 4) {                     
+            } else if (request.readyState === 4) {                        // if finished and didn't get statues 200 
                 displayWeather('error'); // Handle errors
             }
         });
 
         // Step 3 - Open endpoint & send request
-        request.open('GET', endpoint);  
-        request.send();   
+        request.open('GET', endpoint);    // 'open' - setup kind of request & endpoint
+        request.send();    // 'send' - actually getting data.
