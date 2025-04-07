@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #1d3557;
+}
+
+.container {
+  max-width: 850px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #e63946;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+select, button {
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #457b9d;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d3557;
+}
+
+.card {
+  background-color: #f1faee;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px black;
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
+
+/**Applying css to the api information**/
+#mealTitle, #drinkTitle {
+  color: #1d3557;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+
+#mealInstructions, #drinkInstructions {
+  font-style: italic;
+  line-height: 1.6;
+}
+
+#mealImage, #drinkImage {
+  border: 3px solid #457b9d;
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 300px;
+}
+

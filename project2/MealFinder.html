@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe and Drink Finder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍽️ Taste Around the World 🍽️</h1>
+
+    <label for="cuisineSelect">Choose a cuisine:</label>
+    <select id="cuisineSelect">
+      <option value="">-- Select Cuisine --</option>
+      <option value="Italian">Italian</option>
+      <option value="Mexican">Mexican</option>
+      <option value="Indian">Indian</option>
+      <option value="Chinese">Chinese</option>
+      <option value="American">American</option>
+    </select>
+
+    <button id="searchBtn">Find Meal & Drink</button>
+    <button id="resetBtn">Clear Results</button>
+
+
+    <div id="mealSection" class="card">
+      <h2 id="mealTitle"></h2>
+      <img id="mealImage" src="" alt="" />
+      <p><strong>Ingredients:</strong></p>
+      <ul id="mealIngredients"></ul>
+      <p id="mealInstructions"></p>
+    </div>
+
+    <div id="drinkSection" class="card">
+      <h2 id="drinkTitle"></h2>
+      <img id="drinkImage" src="" alt="" />
+      <p><strong>Ingredients:</strong></p>
+      <ul id="drinkIngredients"></ul>
+      <p id="drinkInstructions"></p>
+    </div>
+  </div>
+
+  <footer>
+    <p>Created by Jaspreet Singh — 2025</p>
+  </footer>  
+
+  <script src="script.js"></script>
+</body>
+</html>
