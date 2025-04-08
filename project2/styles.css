@@ -5,6 +5,33 @@ body {
   color: #1d3557;
 }
 
+.navbar {
+  background-color: #1d3557;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #e63946;
+}
+
 .container {
   max-width: 850px;
   margin: auto;
